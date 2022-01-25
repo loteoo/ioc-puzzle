@@ -1,0 +1,19 @@
+:root {
+  --font-family: 'IBM Plex Mono', sans-serif;
+}
+
+header,
+footer {
+  padding: var(--block-spacing-vertical) 0;
+}
+
+a[aria-current="page"] {
+  --background-color: var(--primary-focus);
+}
+
+@media (min-width: 992px) {
+  header,
+  footer {
+    --block-spacing-vertical: calc(var(--spacing) * 3.5);
+  }
+}

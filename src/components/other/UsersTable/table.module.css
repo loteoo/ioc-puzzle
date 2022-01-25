@@ -1,0 +1,11 @@
+.table th {
+  white-space: nowrap;
+}
+.table th:hover {
+  cursor: grab;
+  user-select: none;
+  background-color: var(--primary-focus);
+}
+.table :global(.grid) {
+  max-width: 24rem;
+}
