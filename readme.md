@@ -4,8 +4,12 @@ See it at: https://ioc-puzzle-loteoo.netlify.app/
 
 #### Development
 
-`npm run dev`
+```
+npm run dev
+```
 
 #### Generate users
 
-`node generate-users.js`
+```
+node generate-users.js
+```
